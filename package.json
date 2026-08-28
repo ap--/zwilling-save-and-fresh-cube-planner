@@ -11,7 +11,8 @@
     "typecheck": "tsc -b",
     "test": "vitest run",
     "test:watch": "vitest",
-    "scrape": "tsx scripts/scrape-catalog.ts"
+    "scrape": "tsx scripts/scrape-catalog.ts",
+    "screenshots": "tsx scripts/screenshots.ts"
   },
   "dependencies": {
     "react": "^19.1.1",
