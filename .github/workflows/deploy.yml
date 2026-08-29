@@ -16,6 +16,10 @@ jobs:
   build:
     name: Build static site
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      # actions/configure-pages reads the Pages site config via the REST API.
+      pages: read
     steps:
       - name: Checkout
         uses: actions/checkout@v4
